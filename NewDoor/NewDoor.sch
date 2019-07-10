@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1496,9 +1496,9 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 <instance part="GND4" gate="1" x="-86.36" y="-22.86" smashed="yes">
 <attribute name="VALUE" x="-88.9" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="-167.64" y="73.66" smashed="yes">
-<attribute name="NAME" x="-172.72743125" y="94.0097" size="2.543709375" layer="95"/>
-<attribute name="VALUE" x="-172.72603125" y="53.3159" size="2.543009375" layer="96"/>
+<instance part="J1" gate="G$1" x="-175.26" y="88.9" smashed="yes">
+<attribute name="NAME" x="-180.34743125" y="109.2497" size="2.543709375" layer="95"/>
+<attribute name="VALUE" x="-180.34603125" y="68.5559" size="2.543009375" layer="96"/>
 </instance>
 <instance part="J2" gate="G$1" x="55.88" y="73.66" smashed="yes">
 <attribute name="NAME" x="50.795459375" y="93.9981" size="2.54226875" layer="95"/>
@@ -1527,23 +1527,23 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 <attribute name="NAME" x="-19.05965" y="22.33168125" size="1.7825" layer="95"/>
 <attribute name="VALUE" x="-19.0572" y="16.75728125" size="1.781359375" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="-119.38" y="88.9" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="-125.73" y="80.01" size="1.778" layer="96" rot="MR90"/>
-<attribute name="NAME" x="-115.57" y="80.01" size="1.778" layer="95" rot="MR90"/>
+<instance part="Q1" gate="G$1" x="-119.38" y="99.06" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="-125.73" y="90.17" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="-115.57" y="90.17" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="R6" gate="G$1" x="-116.84" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="-118.848809375" y="69.8458" size="1.779959375" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-113.283940625" y="69.84993125" size="1.77803125" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="-116.84" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="-118.848809375" y="80.0058" size="1.779959375" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-113.283940625" y="80.00993125" size="1.77803125" layer="96" rot="R90"/>
 </instance>
-<instance part="GND5" gate="1" x="-116.84" y="58.42" smashed="yes">
-<attribute name="VALUE" x="-119.38" y="55.88" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="-116.84" y="68.58" smashed="yes">
+<attribute name="VALUE" x="-119.38" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-99.06" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="-102.110640625" y="68.82981875" size="1.779540625" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-94.486659375" y="68.578509375" size="1.77851875" layer="96" rot="R90"/>
+<instance part="U$2" gate="G$1" x="-99.06" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="-102.110640625" y="78.98981875" size="1.779540625" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-94.486659375" y="78.738509375" size="1.77851875" layer="96" rot="R90"/>
 </instance>
-<instance part="GND7" gate="1" x="-99.06" y="58.42" smashed="yes">
-<attribute name="VALUE" x="-101.6" y="55.88" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="-99.06" y="68.58" smashed="yes">
+<attribute name="VALUE" x="-101.6" y="66.04" size="1.778" layer="96"/>
 </instance>
 <instance part="U$3" gate="G$1" x="-180.34" y="33.02" smashed="yes">
 <attribute name="NAME" x="-179.323559375" y="33.655271875" size="1.778759375" layer="95"/>
@@ -1570,9 +1570,9 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 <instance part="GND9" gate="1" x="-147.32" y="55.88" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-144.78" y="58.42" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D1" gate="G$1" x="-106.68" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="-108.585" y="84.582" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-103.251" y="84.582" size="1.778" layer="96" rot="R90"/>
+<instance part="D1" gate="G$1" x="-106.68" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="-108.585" y="94.742" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-103.251" y="94.742" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$4" gate="G$1" x="-7.62" y="91.44" smashed="yes">
 <attribute name="NAME" x="-15.24" y="99.06" size="1.778" layer="95" align="top-left"/>
@@ -1638,12 +1638,12 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="-116.84" y1="66.04" x2="-116.84" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="76.2" x2="-116.84" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="A"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-99.06" y1="68.58" x2="-99.06" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="78.74" x2="-99.06" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND_1"/>
@@ -1672,13 +1672,13 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="-157.48" y1="81.28" x2="-152.4" y2="81.28" width="0.1524" layer="91"/>
-<label x="-152.4" y="81.28" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="96.52" x2="-157.48" y2="96.52" width="0.1524" layer="91"/>
+<label x="-157.48" y="96.52" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="-157.48" y1="78.74" x2="-152.4" y2="78.74" width="0.1524" layer="91"/>
-<label x="-152.4" y="78.74" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="93.98" x2="-157.48" y2="93.98" width="0.1524" layer="91"/>
+<label x="-157.48" y="93.98" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="EP"/>
@@ -1724,16 +1724,16 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 <net name="VS" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="-114.3" y1="91.44" x2="-106.68" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="101.6" x2="-106.68" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="-106.68" y1="88.9" x2="-106.68" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="99.06" x2="-106.68" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="C"/>
-<wire x1="-106.68" y1="91.44" x2="-99.06" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="91.44" x2="-99.06" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-106.68" y="91.44"/>
-<wire x1="-99.06" y1="91.44" x2="-93.98" y2="91.44" width="0.1524" layer="91"/>
-<junction x="-99.06" y="91.44"/>
-<label x="-93.98" y="91.44" size="1.016" layer="95" xref="yes"/>
+<wire x1="-106.68" y1="101.6" x2="-99.06" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="101.6" x2="-99.06" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-106.68" y="101.6"/>
+<wire x1="-99.06" y1="101.6" x2="-93.98" y2="101.6" width="0.1524" layer="91"/>
+<junction x="-99.06" y="101.6"/>
+<label x="-93.98" y="101.6" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -1884,8 +1884,8 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="12"/>
-<wire x1="-157.48" y1="60.96" x2="-152.4" y2="60.96" width="0.1524" layer="91"/>
-<label x="-152.4" y="60.96" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="76.2" x2="-157.48" y2="76.2" width="0.1524" layer="91"/>
+<label x="-157.48" y="76.2" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="WIN_B" class="0">
@@ -1896,8 +1896,8 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="-157.48" y1="88.9" x2="-152.4" y2="88.9" width="0.1524" layer="91"/>
-<label x="-152.4" y="88.9" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="104.14" x2="-157.48" y2="104.14" width="0.1524" layer="91"/>
+<label x="-157.48" y="104.14" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -2047,8 +2047,8 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="-157.48" y1="66.04" x2="-152.4" y2="66.04" width="0.1524" layer="91"/>
-<label x="-152.4" y="66.04" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="81.28" x2="-157.48" y2="81.28" width="0.1524" layer="91"/>
+<label x="-157.48" y="81.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MIR_FOLD" class="0">
@@ -2067,8 +2067,8 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="-157.48" y1="83.82" x2="-152.4" y2="83.82" width="0.1524" layer="91"/>
-<label x="-152.4" y="83.82" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="99.06" x2="-157.48" y2="99.06" width="0.1524" layer="91"/>
+<label x="-157.48" y="99.06" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MIR_H" class="0">
@@ -2079,8 +2079,8 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="-157.48" y1="86.36" x2="-152.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="-152.4" y="86.36" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="101.6" x2="-157.48" y2="101.6" width="0.1524" layer="91"/>
+<label x="-157.48" y="101.6" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MIR_V" class="0">
@@ -2091,26 +2091,26 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="-157.48" y1="63.5" x2="-152.4" y2="63.5" width="0.1524" layer="91"/>
-<label x="-152.4" y="63.5" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="78.74" x2="-157.48" y2="78.74" width="0.1524" layer="91"/>
+<label x="-157.48" y="78.74" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GATE" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="-116.84" y1="86.36" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="96.52" x2="-116.84" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-116.84" y1="83.82" x2="-116.84" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="83.82" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-116.84" y="83.82"/>
+<wire x1="-116.84" y1="93.98" x2="-116.84" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="93.98" x2="-116.84" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-116.84" y="93.98"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="-124.46" y1="91.44" x2="-129.54" y2="91.44" width="0.1524" layer="91"/>
-<label x="-129.54" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="-124.46" y1="101.6" x2="-129.54" y2="101.6" width="0.1524" layer="91"/>
+<label x="-129.54" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="VIN"/>
@@ -2128,13 +2128,13 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="-157.48" y1="71.12" x2="-152.4" y2="71.12" width="0.1524" layer="91"/>
-<label x="-152.4" y="71.12" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="86.36" x2="-157.48" y2="86.36" width="0.1524" layer="91"/>
+<label x="-157.48" y="86.36" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="-157.48" y1="68.58" x2="-152.4" y2="68.58" width="0.1524" layer="91"/>
-<label x="-152.4" y="68.58" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="83.82" x2="-157.48" y2="83.82" width="0.1524" layer="91"/>
+<label x="-157.48" y="83.82" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -2164,15 +2164,15 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"
 <net name="N$12" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="-157.48" y1="76.2" x2="-152.4" y2="76.2" width="0.1524" layer="91"/>
-<label x="-152.4" y="76.2" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="91.44" x2="-157.48" y2="91.44" width="0.1524" layer="91"/>
+<label x="-157.48" y="91.44" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="-157.48" y1="73.66" x2="-152.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="-152.4" y="73.66" size="1.016" layer="95" xref="yes"/>
+<wire x1="-165.1" y1="88.9" x2="-157.48" y2="88.9" width="0.1524" layer="91"/>
+<label x="-157.48" y="88.9" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

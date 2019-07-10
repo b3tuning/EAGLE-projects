@@ -1,0 +1,114 @@
+Netlist
+
+Exported from dcm.brd at 8/2/2018 2:05 PM
+
+EAGLE Version 9.1.1 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Net      Part     Pad
+
+N$1      J2       1
+         U$1      VIN
+         U$2      VIN
+         U$3      VIN
+         U$4      VIN
+         U$6      1
+
+N$2      J2       12
+         U$1      GND
+         U$1      LGND
+         U$2      GND
+         U$2      LGND
+         U$3      GND
+         U$3      LGND
+         U$4      GND
+         U$4      LGND
+         U$5      LGND
+         U$6      2
+
+N$4      J2       3
+         U$1      OUTA
+
+N$5      J2       4
+         U$4      OUTA
+
+N$6      J2       5
+         U$3      OUTA
+
+N$7      J2       6
+         U$2      OUTA
+
+N$8      J2       7
+         U$2      OUTB
+
+N$9      J2       8
+         U$3      OUTB
+
+N$10     J2       9
+         U$4      OUTB
+
+N$11     J2       10
+         U$1      OUTB
+
+N$12     U$3      PWM
+         U$5      2/SDA
+
+N$13     U$3      DIR
+         U$5      3/SCL
+
+N$14     U$2      DIR
+         U$5      5(PWM)
+
+N$15     U$2      PWM
+         U$5      4(PWM)/A6
+
+N$16     U$4      PWM
+         U$5      6(PWM)/A7
+
+N$17     U$4      DIR
+         U$5      7
+
+N$18     U$1      PWM
+         U$5      8/A9
+
+N$19     U$1      DIR
+         U$5      9(PWM)/A10
+
+N$20     J1       1
+         U$5      1/TX
+
+N$21     J1       2
+         U$5      LGND2
+
+N$22     J1       3
+         U$5      11(PWM)
+
+N$23     J1       4
+         U$5      A2
+
+N$24     J1       5
+         U$5      A4
+
+N$25     J1       6
+         U$5      A1
+
+N$26     J1       7
+         U$5      A0
+
+N$27     J1       8
+         U$5      A5
+
+N$28     J1       9
+         U$5      A3
+
+N$29     U$5      +5V
+         U$6      3
+
+N$30     J1       10
+         U$5      10(PWM)/A11
+
+N$31     J1       11
+         U$5      12(PWM)/A12
+
+N$32     J1       12
+         U$5      0/RX
+

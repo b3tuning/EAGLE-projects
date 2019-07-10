@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.1.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Generated from &lt;b&gt;dcm.brd&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="DT15-12PA_TE_DT15-12PA">
+<circle x="-18.9" y="-11.115" radius="0.2" width="0.4" layer="21"/>
+<wire x1="-17.63" y1="29.605" x2="17.63" y2="29.605" width="0.1524" layer="21"/>
+<wire x1="17.63" y1="29.605" x2="17.63" y2="-29.605" width="0.1524" layer="21"/>
+<wire x1="17.63" y1="-29.605" x2="-17.63" y2="-29.605" width="0.1524" layer="21"/>
+<wire x1="-17.63" y1="-29.605" x2="-17.63" y2="29.605" width="0.1524" layer="21"/>
+<wire x1="-17.9" y1="29.9" x2="17.9" y2="29.9" width="0.05" layer="39"/>
+<wire x1="17.9" y1="29.9" x2="17.9" y2="-29.9" width="0.05" layer="39"/>
+<wire x1="17.9" y1="-29.9" x2="-17.9" y2="-29.9" width="0.05" layer="39"/>
+<wire x1="-17.9" y1="-29.9" x2="-17.9" y2="29.9" width="0.05" layer="39"/>
+<wire x1="-17.63" y1="29.605" x2="17.63" y2="29.605" width="0.1524" layer="51"/>
+<wire x1="17.63" y1="29.605" x2="17.63" y2="-29.605" width="0.1524" layer="51"/>
+<wire x1="17.63" y1="-29.605" x2="-17.63" y2="-29.605" width="0.1524" layer="51"/>
+<wire x1="-17.63" y1="-29.605" x2="-17.63" y2="29.605" width="0.1524" layer="51"/>
+<pad name="1" x="-4.56" y="-11.115" drill="1.77" shape="square"/>
+<pad name="2" x="-4.56" y="-6.67" drill="1.77"/>
+<pad name="3" x="-4.56" y="-2.225" drill="1.77"/>
+<pad name="4" x="-4.56" y="2.225" drill="1.77"/>
+<pad name="5" x="-4.56" y="6.67" drill="1.77"/>
+<pad name="6" x="-4.56" y="11.115" drill="1.77"/>
+<pad name="7" x="4.56" y="11.115" drill="1.77"/>
+<pad name="8" x="4.56" y="6.67" drill="1.77"/>
+<pad name="9" x="4.56" y="2.225" drill="1.77"/>
+<pad name="10" x="4.56" y="-2.225" drill="1.77"/>
+<pad name="11" x="4.56" y="-6.67" drill="1.77"/>
+<pad name="12" x="4.56" y="-11.115" drill="1.77"/>
+<text x="-16.527" y="30.5113" size="2.542609375" layer="25">&gt;NAME</text>
+<text x="-16.5207" y="-30.4998" size="2.541659375" layer="27" align="top-left">&gt;VALUE</text>
+<hole x="-10.67" y="17.535" drill="2.99"/>
+<hole x="10.67" y="17.535" drill="2.99"/>
+<hole x="10.67" y="-17.545" drill="2.99"/>
+<hole x="-10.67" y="-17.545" drill="2.99"/>
+</package>
+<package name="DTM15-12PA_TE_DTM15-12PA">
+<circle x="-31.75" y="3.81" radius="0.25" width="0.5" layer="21"/>
+<wire x1="-30.48" y1="16.51" x2="30.48" y2="16.51" width="0.127" layer="21"/>
+<wire x1="30.48" y1="16.51" x2="30.48" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="30.48" y1="-16.51" x2="-30.48" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="-30.48" y1="-16.51" x2="-30.48" y2="16.51" width="0.127" layer="21"/>
+<wire x1="-30.7" y1="16.8" x2="30.7" y2="16.8" width="0.05" layer="39"/>
+<wire x1="30.7" y1="16.8" x2="30.7" y2="-16.7" width="0.05" layer="39"/>
+<wire x1="30.7" y1="-16.7" x2="-30.7" y2="-16.7" width="0.05" layer="39"/>
+<wire x1="-30.7" y1="-16.7" x2="-30.7" y2="16.8" width="0.05" layer="39"/>
+<wire x1="-30.48" y1="16.51" x2="30.48" y2="16.51" width="0.127" layer="51"/>
+<wire x1="30.48" y1="16.51" x2="30.48" y2="-16.51" width="0.127" layer="51"/>
+<wire x1="30.48" y1="-16.51" x2="-30.48" y2="-16.51" width="0.127" layer="51"/>
+<wire x1="-30.48" y1="-16.51" x2="-30.48" y2="16.51" width="0.127" layer="51"/>
+<pad name="1" x="-10.475" y="3.555" drill="1.19" shape="square"/>
+<pad name="2" x="-6.285" y="3.555" drill="1.19"/>
+<pad name="3" x="-2.095" y="3.555" drill="1.19"/>
+<pad name="4" x="2.095" y="3.555" drill="1.19"/>
+<pad name="5" x="6.285" y="3.555" drill="1.19"/>
+<pad name="6" x="10.475" y="3.555" drill="1.19"/>
+<pad name="7" x="10.475" y="-3.555" drill="1.19"/>
+<pad name="8" x="6.285" y="-3.555" drill="1.19"/>
+<pad name="9" x="2.095" y="-3.555" drill="1.19"/>
+<pad name="10" x="-2.095" y="-3.555" drill="1.19"/>
+<pad name="11" x="-6.285" y="-3.555" drill="1.19"/>
+<pad name="12" x="-10.475" y="-3.555" drill="1.19"/>
+<text x="-29.2702" y="17.8166" size="2.54521875" layer="25">&gt;NAME</text>
+<text x="-29.2785" y="-17.8217" size="2.545959375" layer="27" align="top-left">&gt;VALUE</text>
+<hole x="-17.41" y="-12.7" drill="2.99"/>
+<hole x="-17.41" y="12.7" drill="2.99"/>
+<hole x="17.41" y="12.7" drill="2.99"/>
+<hole x="17.41" y="-12.7" drill="2.99"/>
+</package>
+<package name="MARVELOUS_ARDUINO_MICRO">
+<wire x1="9" y1="24" x2="9" y2="-24" width="0.001" layer="21"/>
+<wire x1="9" y1="-24" x2="-9" y2="-24" width="0.001" layer="21"/>
+<wire x1="-9" y1="-24" x2="-9" y2="24" width="0.001" layer="21"/>
+<wire x1="-9" y1="24" x2="9" y2="24" width="0.001" layer="21"/>
+<smd name="+5V" x="7.62" y="7.49" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="0/RX" x="-7.62" y="12.57" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="1/TX" x="-7.62" y="15.11" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="2/SDA" x="-7.62" y="4.95" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="3.3V" x="7.62" y="-17.91" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="3/SCL" x="-7.62" y="2.41" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="4(PWM)/A6" x="-7.62" y="-0.13" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="5(PWM)" x="-7.62" y="-2.67" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="6(PWM)/A7" x="-7.62" y="-5.21" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="7" x="-7.62" y="-7.75" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="8/A9" x="-7.62" y="-10.29" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="9(PWM)/A10" x="-7.62" y="-12.83" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="10(PWM)/A11" x="-7.62" y="-15.37" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="11(PWM)" x="-7.62" y="-17.91" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="12(PWM)/A12" x="-7.62" y="-20.45" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="13(PWM)" x="7.62" y="-20.45" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="A0" x="7.62" y="-12.83" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="A1" x="7.62" y="-10.29" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="A2" x="7.62" y="-7.75" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="A3" x="7.62" y="-5.21" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="A4" x="7.62" y="-2.67" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="A5" x="7.62" y="-0.13" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="AREF" x="7.62" y="-15.37" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="LGND" x="-7.62" y="7.49" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="LGND2" x="7.62" y="12.57" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="MISO" x="7.62" y="17.65" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="MOSI" x="-7.62" y="20.19" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="N/C" x="7.62" y="4.95" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="NC" x="7.62" y="2.41" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="RESET" x="-7.62" y="10.03" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="RESET2" x="7.62" y="10.03" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="RX_LED/SS" x="-7.62" y="17.65" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="SCK" x="7.62" y="20.19" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="VIN1" x="7.62" y="15.11" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<text x="-8" y="25" size="1.27" layer="25" font="vector">name</text>
+<text x="-7" y="-26.5" size="1.27" layer="27" font="vector">value</text>
+</package>
+<package name="MARVELOUS_FOLD_MOTOR">
+<wire x1="16.5" y1="10.15" x2="16.5" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-10.15" x2="-16.5" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="-10.15" x2="-16.5" y2="10.15" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="10.15" x2="16.5" y2="10.15" width="0.127" layer="21"/>
+<smd name="DIR" x="15.23" y="-6.36" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="GND" x="-14.21" y="-7.49" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="LGND" x="15.23" y="-8.9" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="OUTA" x="-14.21" y="2.51" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="OUTB" x="-14.21" y="-2.49" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="PWM" x="15.23" y="-3.82" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="VIN" x="-14.21" y="7.51" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<text x="-16" y="11" size="1.27" layer="25">name</text>
+<text x="-15.5" y="-12" size="1.27" layer="27">value</text>
+</package>
+<package name="MARVELOUS_MIRROR_H_MOTOR">
+<wire x1="16.5" y1="10.15" x2="16.5" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-10.15" x2="-16.5" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="-10.15" x2="-16.5" y2="10.15" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="10.15" x2="16.5" y2="10.15" width="0.127" layer="21"/>
+<smd name="DIR" x="15.23" y="-6.36" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="GND" x="-14.21" y="-7.49" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="LGND" x="15.23" y="-8.9" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="OUTA" x="-14.21" y="2.51" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="OUTB" x="-14.21" y="-2.49" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="PWM" x="15.23" y="-3.82" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="VIN" x="-14.21" y="7.51" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<text x="-16" y="11" size="1.27" layer="25">name</text>
+<text x="-15.5" y="-12" size="1.27" layer="27">value</text>
+</package>
+<package name="MARVELOUS_MIRROR_V_MOTOR">
+<wire x1="16.5" y1="10.15" x2="16.5" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-10.15" x2="-16.5" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="-10.15" x2="-16.5" y2="10.15" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="10.15" x2="16.5" y2="10.15" width="0.127" layer="21"/>
+<smd name="DIR" x="15.23" y="-6.36" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="GND" x="-14.21" y="-7.49" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="LGND" x="15.23" y="-8.9" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="OUTA" x="-14.21" y="2.51" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="OUTB" x="-14.21" y="-2.49" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="PWM" x="15.23" y="-3.82" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="VIN" x="-14.21" y="7.51" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<text x="-16" y="11" size="1.27" layer="25">name</text>
+<text x="-15.5" y="-12" size="1.27" layer="27">value</text>
+</package>
+<package name="MARVELOUS_WINDOW_MOTOR">
+<wire x1="16.5" y1="10.15" x2="16.5" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-10.15" x2="-16.5" y2="-10.15" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="-10.15" x2="-16.5" y2="10.15" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="10.15" x2="16.5" y2="10.15" width="0.127" layer="21"/>
+<smd name="DIR" x="15.23" y="-6.36" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="GND" x="-14.21" y="-7.49" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="LGND" x="15.23" y="-8.9" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="OUTA" x="-14.21" y="2.51" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="OUTB" x="-14.21" y="-2.49" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<smd name="PWM" x="15.23" y="-3.82" dx="1.02" dy="1.02" layer="1" roundness="100"/>
+<smd name="VIN" x="-14.21" y="7.51" dx="2.18" dy="2.18" layer="1" roundness="100"/>
+<text x="-16" y="11" size="1.27" layer="25">name</text>
+<text x="-15.5" y="-12" size="1.27" layer="27">value</text>
+</package>
+<package name="CARRILIB_OKI-78SRH">
+<description>OKI-78SR-3.3/1.5W36H&lt;br&gt;
+OKI-78SR-5/1.5W36H</description>
+<wire x1="5.08" y1="-1.27" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="15.24" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.127" layer="21"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="10.16" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="10.16" x2="-2.54" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.127" layer="21"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="10.16" width="0.127" layer="21"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="5.08" width="0.127" layer="51"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="15.24" width="0.127" layer="51"/>
+<wire x1="5.08" y1="15.24" x2="-5.08" y2="15.24" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="10.16" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="5.08" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="10.16" x2="-2.54" y2="12.7" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.127" layer="51"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="10.16" width="0.127" layer="51"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="5.08" width="0.127" layer="51"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="2.54" width="0.127" layer="51"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="5.08" width="0.127" layer="51"/>
+<pad name="1" x="2.54" y="0" drill="1.016"/>
+<pad name="2" x="0" y="0" drill="1.016"/>
+<pad name="3" x="-2.54" y="0" drill="1.016"/>
+<text x="-1.016" y="-2.794" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>

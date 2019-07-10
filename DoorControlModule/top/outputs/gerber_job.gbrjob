@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.2*%
+%TF.CreationDate,2018-08-08T23:14:23Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,James Hildebrand <b3tuning@gmail.com>*%
+%TJ.B_ID,Door*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,139.370000*%
+%TJ.B_Size_Y,63.490000*%
+M02*
