@@ -1,0 +1,24 @@
+Partlist exported from C:/Users/Delux/OneDrive/Documents/EAGLE/projects/NewDoor/NewDoor.sch at 5/13/2019 6:38 PM
+
+Part Value          Device             Package            Description                                                                             
+C1   100NF          100NF              CAPC3216X110N      Capacitor: ceramic; MLCC; 100nF; 50V; X7R; ±5%; SMD; 1206                               
+C2   100NF          100NF              CAPC3216X110N      Capacitor: ceramic; MLCC; 100nF; 50V; X7R; ±5%; SMD; 1206                               
+C3   100NF          100NF              CAPC3216X110N      Capacitor: ceramic; MLCC; 100nF; 50V; X7R; ±5%; SMD; 1206                               
+C4   22uf 25v       GRM31CC81E226KE11L CAP3216X125N       22UF 25V 10% 1206                                                                       
+C5   47uf 25v       GRM31CC81E226KE11L CAP3216X125N       22UF 25V 10% 1206                                                                       
+D1   1SMA5927BT3G   1SMA5927BT3G       DO214AC            1SMA59xxBT3G Series                                                                     
+J1   DT15-12PA      DT15-12PA          TE_DT15-12PA       DEUTSCH Automotive; DT RECP ASM                                                         
+J2   DTM15-12PA     DTM15-12PA         TE_DTM15-12PA      DEUTSCH Automotive; DTM RECP ASM                                                        
+Q1   IPD50P04P4L-11 IPD50P04P4L-11     DPAK228P998X235-3N P-Channel 40 V 10.6 mOhm OptiMOS®-P2 Power-Transistor -PG-TO-252-3                      
+R1   470_OHM        470_OHM            RESC3216X65        RC Series 1206 0.25 W 0 O Jumper Surface Mount Thick Film Chip Resistor                 
+R2   470_OHM        470_OHM            RESC3216X65        RC Series 1206 0.25 W 0 O Jumper Surface Mount Thick Film Chip Resistor                 
+R3   470_OHM        470_OHM            RESC3216X65        RC Series 1206 0.25 W 0 O Jumper Surface Mount Thick Film Chip Resistor                 
+R4   470_OHM        470_OHM            RESC3216X65        RC Series 1206 0.25 W 0 O Jumper Surface Mount Thick Film Chip Resistor                 
+R5   470_OHM        470_OHM            RESC3216X65        RC Series 1206 0.25 W 0 O Jumper Surface Mount Thick Film Chip Resistor                 
+R6   4700_OHM       4700_OHM           RESC3216X70        Res Thick Film 1206 4.7K Ohm 1% 0.25W(1/4W) ±100ppm/C Molded SMD Automotive Punched T/R 
+U$1  WINDOW_MOTOR   WINDOW_MOTOR       POLOLU                                                                                                     
+U$2  SM6T39A        SM6T39A            SM6T39A                                                                                                    
+U$3  47UF           47UF               CAPAE1030X1200     Cap Aluminum Lytic 470uF 16V 20% (10 X 10.2mm) SMD 670mA 1000h 105°C Embossed T/R       
+U$4  OKI            OKI                OKI-78SR-H                                                                                                 
+U1   A000005        A000005            ARDUINO_A000005    MICRO, ARDUINO NANO 3.0, MINI-B USB, ATmega328, 0.1"DIP, ICSP HDR                       
+U2   TLE94108EL     TLE94108EL         SOP65P600X170-25N  TLE94108EL                                                                              
