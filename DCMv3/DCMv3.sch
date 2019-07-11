@@ -107,22 +107,6 @@
 <wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.1" layer="51"/>
 <wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.1" layer="51"/>
 </package>
-<package name="RESC0603X24N">
-<description>&lt;b&gt;0201&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.425" y="0" dx="0.65" dy="0.45" layer="1"/>
-<smd name="2" x="0.425" y="0" dx="0.65" dy="0.45" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1" y1="0.5" x2="1" y2="0.5" width="0.05" layer="51"/>
-<wire x1="1" y1="0.5" x2="1" y2="-0.5" width="0.05" layer="51"/>
-<wire x1="1" y1="-0.5" x2="-1" y2="-0.5" width="0.05" layer="51"/>
-<wire x1="-1" y1="-0.5" x2="-1" y2="0.5" width="0.05" layer="51"/>
-<wire x1="-0.305" y1="0.155" x2="0.305" y2="0.155" width="0.1" layer="51"/>
-<wire x1="0.305" y1="0.155" x2="0.305" y2="-0.155" width="0.1" layer="51"/>
-<wire x1="0.305" y1="-0.155" x2="-0.305" y2="-0.155" width="0.1" layer="51"/>
-<wire x1="-0.305" y1="-0.155" x2="-0.305" y2="0.155" width="0.1" layer="51"/>
-</package>
 <package name="CAPC0603X33N">
 <description>&lt;b&gt;GRM033&lt;/b&gt;&lt;br&gt;
 </description>
@@ -278,6 +262,23 @@
 <wire x1="2.675" y1="1.812" x2="-3.275" y2="1.812" width="0.2" layer="21"/>
 <wire x1="-2.675" y1="-1.812" x2="2.675" y2="-1.812" width="0.2" layer="21"/>
 </package>
+<package name="RESC6432X84N">
+<description>&lt;b&gt;RLP73K&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.05" y="0" dx="3.35" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="3.05" y="0" dx="3.35" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.9" y1="1.95" x2="3.9" y2="1.95" width="0.05" layer="51"/>
+<wire x1="3.9" y1="1.95" x2="3.9" y2="-1.95" width="0.05" layer="51"/>
+<wire x1="3.9" y1="-1.95" x2="-3.9" y2="-1.95" width="0.05" layer="51"/>
+<wire x1="-3.9" y1="-1.95" x2="-3.9" y2="1.95" width="0.05" layer="51"/>
+<wire x1="-3.175" y1="1.575" x2="3.175" y2="1.575" width="0.1" layer="51"/>
+<wire x1="3.175" y1="1.575" x2="3.175" y2="-1.575" width="0.1" layer="51"/>
+<wire x1="3.175" y1="-1.575" x2="-3.175" y2="-1.575" width="0.1" layer="51"/>
+<wire x1="-3.175" y1="-1.575" x2="-3.175" y2="1.575" width="0.1" layer="51"/>
+<wire x1="0" y1="1.475" x2="0" y2="-1.475" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRV8872DDA">
@@ -308,16 +309,6 @@
 <pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 <symbol name="ERJ-1RKD4700C">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="UCR006YVPFLR120">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -432,6 +423,16 @@
 <pin name="K" x="0" y="0" visible="pad" length="middle"/>
 <pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
+<symbol name="RLP73K3AR12FTDF">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DRV8872DDA" prefix="M">
@@ -509,31 +510,6 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.p
 <attribute name="HEIGHT" value="0.26mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-1RKD4700C" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="UCR006YVPFLR120" prefix="R">
-<description>&lt;b&gt;Current Sense Resistors - SMD 0201 0.12ohm 1% CS-Thk Film&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://mouser.componentsearchengine.com/Datasheets/1/UCR006YVPFLR120.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="UCR006YVPFLR120" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC0603X24N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Current Sense Resistors - SMD 0201 0.12ohm 1% CS-Thk Film" constant="no"/>
-<attribute name="HEIGHT" value="0.24mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCR006YVPFLR120" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
@@ -762,6 +738,33 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SM6T39A.pdf"&
 <attribute name="MANUFACTURER_PART_NUMBER" value="SM6T39A" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="511-SM6T39A" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-SM6T39A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RLP73K3AR12FTDF" prefix="R">
+<description>&lt;b&gt;RES 0.12 OHM 1% 2W 2512&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773269&amp;DocType=DS&amp;DocLang=English"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="RLP73K3AR12FTDF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC6432X84N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="RES 0.12 OHM 1% 2W 2512" constant="no"/>
+<attribute name="HEIGHT" value="0.84mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity Passive Product" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RLP73K3AR12FTDF" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1479,7 +1482,6 @@ Protected Eight-Fold Half-Bridge Driver
 <part name="R7" library="SamacSys_Parts" deviceset="ERJ-1RKD4700C" device=""/>
 <part name="R8" library="SamacSys_Parts" deviceset="ERJ-1RKD4700C" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R9" library="SamacSys_Parts" deviceset="UCR006YVPFLR120" device=""/>
 <part name="C3" library="SamacSys_Parts" deviceset="GRM033R6YA104KE14D" device=""/>
 <part name="J2" library="DTM15-12PA" deviceset="DTM15-12PA" device=""/>
 <part name="IC1" library="SamacSys_Parts" deviceset="OKI-78SR-5_1.5-W36H-C" device=""/>
@@ -1513,6 +1515,7 @@ Protected Eight-Fold Half-Bridge Driver
 <part name="D1" library="SamacSys_Parts" deviceset="SM6T39A" device=""/>
 <part name="C5" library="SamacSys_Parts" deviceset="EEE-FT1H470AP" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R1" library="SamacSys_Parts" deviceset="RLP73K3AR12FTDF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1566,9 +1569,6 @@ Protected Eight-Fold Half-Bridge Driver
 </instance>
 <instance part="GND6" gate="1" x="-30.48" y="132.08" smashed="yes">
 <attribute name="VALUE" x="-33.02" y="129.54" size="1.778" layer="96"/>
-</instance>
-<instance part="R9" gate="G$1" x="15.24" y="66.04" smashed="yes">
-<attribute name="NAME" x="22.352" y="66.04" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="C3" gate="G$1" x="15.24" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.43" y="52.07" size="1.778" layer="95" rot="R270" align="center-left"/>
@@ -1678,6 +1678,10 @@ Protected Eight-Fold Half-Bridge Driver
 <instance part="GND2" gate="1" x="25.4" y="40.64" smashed="yes">
 <attribute name="VALUE" x="22.86" y="38.1" size="1.778" layer="96"/>
 </instance>
+<instance part="R1" gate="G$1" x="15.24" y="66.04" smashed="yes">
+<attribute name="NAME" x="29.21" y="72.39" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="29.21" y="69.85" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1697,7 +1701,7 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="33.02" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="43.18" y1="66.04" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND"/>
@@ -1823,7 +1827,7 @@ Protected Eight-Fold Half-Bridge Driver
 <segment>
 <pinref part="M1" gate="G$1" pin="ISEN"/>
 <wire x1="7.62" y1="66.04" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IN2" class="0">
