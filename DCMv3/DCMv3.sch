@@ -91,26 +91,6 @@
 <wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
 <wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
 </package>
-<package name="CAPAE645X770N">
-<description>&lt;b&gt;EEE-HDV470XAP&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-3" y="0" dx="3.4" dy="1.8" layer="1"/>
-<smd name="2" x="3" y="0" dx="3.4" dy="1.8" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-5.2" y1="3.8" x2="5.2" y2="3.8" width="0.05" layer="51"/>
-<wire x1="5.2" y1="3.8" x2="5.2" y2="-3.8" width="0.05" layer="51"/>
-<wire x1="5.2" y1="-3.8" x2="-5.2" y2="-3.8" width="0.05" layer="51"/>
-<wire x1="-5.2" y1="-3.8" x2="-5.2" y2="3.8" width="0.05" layer="51"/>
-<wire x1="3.225" y1="3.225" x2="-1.612" y2="3.225" width="0.1" layer="51"/>
-<wire x1="-1.612" y1="3.225" x2="-3.225" y2="1.612" width="0.1" layer="51"/>
-<wire x1="-3.225" y1="1.612" x2="-3.225" y2="-1.612" width="0.1" layer="51"/>
-<wire x1="-3.225" y1="-1.612" x2="-1.612" y2="-3.225" width="0.1" layer="51"/>
-<wire x1="-1.612" y1="-3.225" x2="3.225" y2="-3.225" width="0.1" layer="51"/>
-<wire x1="3.225" y1="-3.225" x2="3.225" y2="3.225" width="0.1" layer="51"/>
-<wire x1="-4.7" y1="3.225" x2="3.225" y2="3.225" width="0.2" layer="21"/>
-<wire x1="-1.612" y1="-3.225" x2="3.225" y2="-3.225" width="0.2" layer="21"/>
-</package>
 <package name="RESC0603X26N">
 <description>&lt;b&gt;0603_&lt;/b&gt;&lt;br&gt;
 </description>
@@ -240,6 +220,64 @@
 <wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
 </package>
+<package name="CAPAE660X610N">
+<description>&lt;b&gt;EEE-FT1H470AP&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3" y="0" dx="3.4" dy="1.8" layer="1"/>
+<smd name="2" x="3" y="0" dx="3.4" dy="1.8" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-5.2" y1="3.9" x2="5.2" y2="3.9" width="0.05" layer="51"/>
+<wire x1="5.2" y1="3.9" x2="5.2" y2="-3.9" width="0.05" layer="51"/>
+<wire x1="5.2" y1="-3.9" x2="-5.2" y2="-3.9" width="0.05" layer="51"/>
+<wire x1="-5.2" y1="-3.9" x2="-5.2" y2="3.9" width="0.05" layer="51"/>
+<wire x1="3.3" y1="3.3" x2="-1.65" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-1.65" y1="3.3" x2="-3.3" y2="1.65" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="1.65" x2="-3.3" y2="-1.65" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-1.65" x2="-1.65" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-1.65" y1="-3.3" x2="3.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="3.3" y2="3.3" width="0.1" layer="51"/>
+<wire x1="-4.7" y1="3.3" x2="3.3" y2="3.3" width="0.2" layer="21"/>
+<wire x1="-1.65" y1="-3.3" x2="3.3" y2="-3.3" width="0.2" layer="21"/>
+</package>
+<package name="SOD2512X110N">
+<description>&lt;b&gt;SOD-323 - case 477-02 - issue H&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.2" y="0" dx="1" dy="0.5" layer="1"/>
+<smd name="2" x="1.2" y="0" dx="1" dy="0.5" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.95" y1="1.15" x2="1.95" y2="1.15" width="0.05" layer="51"/>
+<wire x1="1.95" y1="1.15" x2="1.95" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="1.95" y1="-1.15" x2="-1.95" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="-1.15" x2="-1.95" y2="1.15" width="0.05" layer="51"/>
+<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.1" layer="51"/>
+<wire x1="0.85" y1="0.625" x2="0.85" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="0.85" y1="-0.625" x2="-0.85" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="-0.625" x2="-0.85" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="0.125" x2="-0.35" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="0.625" x2="0.85" y2="0.625" width="0.2" layer="21"/>
+<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.2" layer="21"/>
+</package>
+<package name="DIOM5436X265N">
+<description>&lt;b&gt;SMB&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.2" y="0" dx="2.2" dy="2.15" layer="1"/>
+<smd name="2" x="2.2" y="0" dx="2.2" dy="2.15" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.55" y1="2.225" x2="3.55" y2="2.225" width="0.05" layer="51"/>
+<wire x1="3.55" y1="2.225" x2="3.55" y2="-2.225" width="0.05" layer="51"/>
+<wire x1="3.55" y1="-2.225" x2="-3.55" y2="-2.225" width="0.05" layer="51"/>
+<wire x1="-3.55" y1="-2.225" x2="-3.55" y2="2.225" width="0.05" layer="51"/>
+<wire x1="-2.675" y1="1.812" x2="2.675" y2="1.812" width="0.1" layer="51"/>
+<wire x1="2.675" y1="1.812" x2="2.675" y2="-1.812" width="0.1" layer="51"/>
+<wire x1="2.675" y1="-1.812" x2="-2.675" y2="-1.812" width="0.1" layer="51"/>
+<wire x1="-2.675" y1="-1.812" x2="-2.675" y2="1.812" width="0.1" layer="51"/>
+<wire x1="-2.675" y1="0.738" x2="-1.6" y2="1.812" width="0.1" layer="51"/>
+<wire x1="2.675" y1="1.812" x2="-3.275" y2="1.812" width="0.2" layer="21"/>
+<wire x1="-2.675" y1="-1.812" x2="2.675" y2="-1.812" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRV8872DDA">
@@ -258,26 +296,6 @@
 <pin name="ISEN" x="30.48" y="-2.54" length="middle" direction="pwr" rot="R180"/>
 <pin name="OUT1" x="30.48" y="-5.08" length="middle" direction="out" rot="R180"/>
 <pin name="VM" x="30.48" y="-7.62" length="middle" direction="pwr" rot="R180"/>
-</symbol>
-<symbol name="EEE-HDV470XAP">
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
-<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
-<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="+" x="0" y="0" visible="pad" length="short" direction="pwr"/>
-<pin name="-" x="12.7" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="7.62" y="2.54"/>
-<vertex x="7.62" y="-2.54"/>
-<vertex x="6.858" y="-2.54"/>
-<vertex x="6.858" y="2.54"/>
-</polygon>
 </symbol>
 <symbol name="ERJ-1RHD2202C">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
@@ -370,6 +388,50 @@
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
+<symbol name="EEE-FT1H470AP">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="0" y="0" visible="pad" length="short"/>
+<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="6.858" y="-2.54"/>
+<vertex x="6.858" y="2.54"/>
+</polygon>
+</symbol>
+<symbol name="MM3Z12VT1G">
+<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.032" x2="5.08" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.032" x2="6.096" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="-2.54" x2="5.08" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="10.16" y="8.89" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="10.16" y="6.35" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="short"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="short" rot="R180"/>
+</symbol>
+<symbol name="SM6T39A">
+<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="middle"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DRV8872DDA" prefix="M">
@@ -399,31 +461,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/drv8872-q1.pdf"&gt; Datashe
 <attribute name="MANUFACTURER_PART_NUMBER" value="DRV8872DDA" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-DRV8872DDA" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-DRV8872DDA" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="EEE-HDV470XAP" prefix="C">
-<description>&lt;b&gt;Panasonic 47uF 35 V Aluminium Electrolytic Capacitor, HD(V) Series 1000h 6.3 x 7.7mm&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.mouser.com/datasheet/2/315/ABA0000C1163-947466.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="EEE-HDV470XAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPAE645X770N">
-<connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Panasonic 47uF 35 V Aluminium Electrolytic Capacitor, HD(V) Series 1000h 6.3 x 7.7mm" constant="no"/>
-<attribute name="HEIGHT" value="7.7mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEE-HDV470XAP" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -650,6 +687,81 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Se
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM155R61H104JE14D" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM155R61H104JE4D" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM155R61H104JE4D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEE-FT1H470AP" prefix="C">
+<description>&lt;b&gt;Aluminum Electrolytic Capacitors - SMD 47uF 50volts 6.3x5.8mm SMD&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EEE-FT1H470AP.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="EEE-FT1H470AP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPAE660X610N">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Aluminum Electrolytic Capacitors - SMD 47uF 50volts 6.3x5.8mm SMD" constant="no"/>
+<attribute name="HEIGHT" value="6.1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EEE-FT1H470AP" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-EEE-FT1H470AP" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-EEE-FT1H470AP" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MM3Z12VT1G" prefix="Z">
+<description>&lt;b&gt;ON Semiconductor MM3Z12VT1G Zener Diode, 12V 5% 0.2 W SMT 2-Pin SOD-323&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MM3Z12VT1G.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MM3Z12VT1G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD2512X110N">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="ON Semiconductor MM3Z12VT1G Zener Diode, 12V 5% 0.2 W SMT 2-Pin SOD-323" constant="no"/>
+<attribute name="HEIGHT" value="1.1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MM3Z12VT1G" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-MM3Z12VT1G" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=863-MM3Z12VT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM6T39A" prefix="D">
+<description>&lt;b&gt;TVS Diode Uni-Directional SM6T39A 69.7V, 600W, SMB 2-Pin&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SM6T39A.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SM6T39A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIOM5436X265N">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="TVS Diode Uni-Directional SM6T39A 69.7V, 600W, SMB 2-Pin" constant="no"/>
+<attribute name="HEIGHT" value="2.65mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SM6T39A" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-SM6T39A" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-SM6T39A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1202,324 +1314,6 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/281/murata_03052018_GRM_Se
 </deviceset>
 </devicesets>
 </library>
-<library name="SM6T39A">
-<packages>
-<package name="SM6T39A">
-<wire x1="-2.7" y1="1.8" x2="2.7" y2="1.8" width="0.2" layer="21"/>
-<wire x1="-2.7" y1="-1.8" x2="2.7" y2="-1.8" width="0.2" layer="21"/>
-<circle x="-3.95" y="0" radius="0.14141875" width="0.2" layer="21"/>
-<wire x1="-3.55" y1="2.25" x2="3.55" y2="2.25" width="0.05" layer="39"/>
-<wire x1="3.55" y1="2.25" x2="3.55" y2="-2.25" width="0.05" layer="39"/>
-<wire x1="3.55" y1="-2.25" x2="-3.55" y2="-2.25" width="0.05" layer="39"/>
-<wire x1="-3.55" y1="-2.25" x2="-3.55" y2="2.25" width="0.05" layer="39"/>
-<wire x1="-2.7" y1="1.8" x2="-2.7" y2="1.4" width="0.2" layer="21"/>
-<wire x1="2.7" y1="1.8" x2="2.7" y2="1.4" width="0.2" layer="21"/>
-<wire x1="-2.7" y1="-1.8" x2="-2.7" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="2.7" y1="-1.8" x2="2.7" y2="-1.45" width="0.2" layer="21"/>
-<text x="-9.64091875" y="7.780509375" size="4.296159375" layer="25">&gt;NAME</text>
-<text x="-10.3445" y="-12.3792" size="4.30771875" layer="27">&gt;VALUE</text>
-<smd name="C" x="-2.2" y="0" dx="2.2" dy="2.15" layer="1"/>
-<smd name="A" x="2.2" y="0" dx="2.2" dy="2.15" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SM6T39A">
-<polygon width="0.254" layer="94">
-<vertex x="-1.524" y="-1.524"/>
-<vertex x="-1.524" y="1.524"/>
-<vertex x="1.524" y="0"/>
-</polygon>
-<wire x1="1.778" y1="1.524" x2="1.778" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="1.778" y1="1.524" x2="2.286" y2="1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-1.524" x2="1.27" y2="-2.032" width="0.254" layer="94"/>
-<text x="-4.83018125" y="3.050640625" size="1.779540625" layer="95">&gt;NAME</text>
-<text x="-5.081490625" y="-4.573340625" size="1.77851875" layer="96">&gt;VALUE</text>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<pin name="A" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="C" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SM6T39A">
-<gates>
-<gate name="G$1" symbol="SM6T39A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SM6T39A">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="1sma59xx_10">
-<description>&lt;b&gt;ON Semiconductor 1SMAxxBT3G Voltage Regulator Diodes&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;
-Version 1.0&lt;br&gt;
-&amp;copy; 2015 Samuel Lourenço</description>
-<packages>
-<package name="DO214AC">
-<description>&lt;b&gt;DO-214AC (SMA) Surface Mount Diode&lt;/b&gt;</description>
-<smd name="C" x="-2" y="0" dx="2.5" dy="1.7" layer="1"/>
-<smd name="A" x="2" y="0" dx="2.5" dy="1.7" layer="1"/>
-<rectangle x1="-0.5" y1="-1" x2="0.5" y2="1" layer="35"/>
-<wire x1="-2.15" y1="-1.03" x2="-2.15" y2="-1.3" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="-1.3" x2="2.15" y2="-1.3" width="0.1524" layer="21"/>
-<wire x1="2.15" y1="-1.3" x2="2.15" y2="-1.03" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="1.03" x2="-2.15" y2="1.3" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="1.3" x2="2.15" y2="1.3" width="0.1524" layer="21"/>
-<wire x1="2.15" y1="1.3" x2="2.15" y2="1.03" width="0.1524" layer="21"/>
-<wire x1="-2.15" y1="-1.03" x2="-2.15" y2="1.03" width="0.1524" layer="51"/>
-<wire x1="2.15" y1="-1.03" x2="2.15" y2="1.03" width="0.1524" layer="51"/>
-<rectangle x1="-1.65" y1="0.95" x2="-1.15" y2="1.3" layer="21"/>
-<rectangle x1="-1.65" y1="-1.3" x2="-1.15" y2="-0.95" layer="21"/>
-<rectangle x1="-1.65" y1="-0.95" x2="-1.15" y2="0.95" layer="51"/>
-<rectangle x1="-2.6" y1="-0.72" x2="-2.15" y2="0.72" layer="51"/>
-<rectangle x1="2.15" y1="-0.72" x2="2.6" y2="0.72" layer="51"/>
-<text x="-2.1" y="1.7" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.1" y="-3" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="ZD">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1SMA59*BT3G" prefix="D">
-<description>&lt;b&gt;1SMA59xxBT3G Series&lt;/b&gt;&lt;br&gt;
-1.5 Watt Plastic Surface Mount Zener Voltage Regulators&lt;br&gt;
-&lt;br&gt;
-Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF"&gt;http://www.onsemi.com/pub_link/Collateral/1SMA5913BT3-D.PDF&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ZD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO214AC">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="13">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5913BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431138" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5252" constant="no"/>
-</technology>
-<technology name="14">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5914BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1324195" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5253" constant="no"/>
-</technology>
-<technology name="15">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5915BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1459010" constant="no"/>
-<attribute name="OC_NEWARK" value="59M4308" constant="no"/>
-</technology>
-<technology name="16">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5916BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1703016" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9193" constant="no"/>
-</technology>
-<technology name="17">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5917BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431139" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5254" constant="no"/>
-</technology>
-<technology name="18">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5918BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431140" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9194" constant="no"/>
-</technology>
-<technology name="19">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5919BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431141" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9195" constant="no"/>
-</technology>
-<technology name="20">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5920BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431142" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2417" constant="no"/>
-</technology>
-<technology name="21">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5921BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431143" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5255" constant="no"/>
-</technology>
-<technology name="22">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5922BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431144" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9196" constant="no"/>
-</technology>
-<technology name="23">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5923BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431145" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9197" constant="no"/>
-</technology>
-<technology name="24">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5924BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1364652" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2418" constant="no"/>
-</technology>
-<technology name="25">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5925BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431147" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9198" constant="no"/>
-</technology>
-<technology name="26">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5926BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="27">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5927BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1611250" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2419" constant="no"/>
-</technology>
-<technology name="28">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5928BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="2101827" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5256" constant="no"/>
-</technology>
-<technology name="29">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5929BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1459011" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2420" constant="no"/>
-</technology>
-<technology name="30">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5930BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431149" constant="no"/>
-<attribute name="OC_NEWARK" value="59M4319" constant="no"/>
-</technology>
-<technology name="31">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5931BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431150" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5258" constant="no"/>
-</technology>
-<technology name="32">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5932BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5259" constant="no"/>
-</technology>
-<technology name="33">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5933BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="10N9736" constant="no"/>
-</technology>
-<technology name="34">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5934BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431151" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2421" constant="no"/>
-</technology>
-<technology name="35">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5935BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431152" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9199" constant="no"/>
-</technology>
-<technology name="36">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5936BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431153" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9200" constant="no"/>
-</technology>
-<technology name="37">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5937BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1431154" constant="no"/>
-<attribute name="OC_NEWARK" value="71J9201" constant="no"/>
-</technology>
-<technology name="38">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5938BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1651575" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5260" constant="no"/>
-</technology>
-<technology name="39">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5939BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1887114" constant="no"/>
-<attribute name="OC_NEWARK" value="83K8786" constant="no"/>
-</technology>
-<technology name="40">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5940BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1887114" constant="no"/>
-<attribute name="OC_NEWARK" value="09R9816" constant="no"/>
-</technology>
-<technology name="41">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5941BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="42K3075" constant="no"/>
-</technology>
-<technology name="42">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5942BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1705007" constant="no"/>
-<attribute name="OC_NEWARK" value="42K3076" constant="no"/>
-</technology>
-<technology name="43">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5943BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1147840" constant="no"/>
-<attribute name="OC_NEWARK" value="45J2423" constant="no"/>
-</technology>
-<technology name="44">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5944BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="45">
-<attribute name="MF" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="1SMA5945BT3G" constant="no"/>
-<attribute name="OC_FARNELL" value="1364098" constant="no"/>
-<attribute name="OC_NEWARK" value="26K5261" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TLE94108EL">
 <packages>
 <package name="SOP65P600X170-25N">
@@ -1660,87 +1454,6 @@ Protected Eight-Fold Half-Bridge Driver
 </deviceset>
 </devicesets>
 </library>
-<library name="EEE-FC1C471AP">
-<packages>
-<package name="CAPAE1030X1200">
-<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="2.8" x2="5.1" y2="-2.8" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="-5.1" y1="1" x2="-5.1" y2="5.1" width="0.1016" layer="21"/>
-<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="21"/>
-<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="2.8" x2="5.1" y2="1" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="-1" x2="5.1" y2="-2.8" width="0.1016" layer="21"/>
-<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="21"/>
-<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="21"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-4.85" y1="-1" x2="4.85" y2="-1" width="0.1016" layer="21" curve="156.699"/>
-<wire x1="-4.85" y1="1" x2="4.85" y2="1" width="0.1016" layer="21" curve="-156.699"/>
-<wire x1="-3.25" y1="3.7" x2="-3.25" y2="-3.65" width="0.1016" layer="51"/>
-<circle x="0" y="0" radius="4.95" width="0.1016" layer="51"/>
-<text x="-2.554359375" y="1.752990625" size="1.017740625" layer="25">&gt;NAME</text>
-<text x="-2.551690625" y="-2.67676875" size="1.01666875" layer="27">&gt;VALUE</text>
-<rectangle x1="-5.85163125" y1="-0.450125" x2="-4.9" y2="0.45" layer="51"/>
-<rectangle x1="4.90453125" y1="-0.450415625" x2="5.85" y2="0.45" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-3.3" y="3.6"/>
-<vertex x="-4.05" y="2.75"/>
-<vertex x="-4.65" y="1.55"/>
-<vertex x="-4.85" y="0.45"/>
-<vertex x="-4.85" y="-0.45"/>
-<vertex x="-4.65" y="-1.55"/>
-<vertex x="-4.05" y="-2.75"/>
-<vertex x="-3.3" y="-3.6"/>
-<vertex x="-3.3" y="3.55"/>
-</polygon>
-<smd name="-" x="-4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
-<smd name="+" x="4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="EEE-FC1C471AP">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.8782"/>
-<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.3763"/>
-<text x="1.016440625" y="0.635271875" size="1.778759375" layer="95">&gt;NAME</text>
-<text x="1.01726875" y="-4.196259375" size="1.78023125" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.256290625" y1="0.668975" x2="-1.364" y2="0.795" layer="94"/>
-<rectangle x1="-1.87491875" y1="0.287446875" x2="-1.745" y2="1.176" layer="94"/>
-<pin name="+" x="0" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="-" x="0" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="47UF">
-<description>Cap Aluminum Lytic 470uF 16V 20% (10 X 10.2mm) SMD 670mA 1000h 105°C Embossed T/R</description>
-<gates>
-<gate name="G$1" symbol="EEE-FC1C471AP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAPAE1030X1200">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Cap Aluminum Lytic 470uF 16V 20% _10 X 10.2mm_ SMD 670mA 1000h 105°C Embossed T/R "/>
-<attribute name="MF" value="Panasonic"/>
-<attribute name="MP" value="EEE-FC1C471AP"/>
-<attribute name="PACKAGE" value="Radial Panasonic"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1752,9 +1465,7 @@ Protected Eight-Fold Half-Bridge Driver
 </classes>
 <parts>
 <part name="M1" library="SamacSys_Parts" deviceset="DRV8872DDA" device=""/>
-<part name="C1" library="SamacSys_Parts" deviceset="EEE-HDV470XAP" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1782,12 +1493,9 @@ Protected Eight-Fold Half-Bridge Driver
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="IPD50P04P4L-11" deviceset="IPD50P04P4L-11" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$2" library="SM6T39A" deviceset="SM6T39A" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D1" library="1sma59xx_10" deviceset="1SMA59*BT3G" device="" technology="27"/>
 <part name="R10" library="SamacSys_Parts" deviceset="ERJ-PA2F4701X" device=""/>
 <part name="U2" library="TLE94108EL" deviceset="TLE94108EL" device=""/>
-<part name="U$3" library="EEE-FC1C471AP" deviceset="47UF" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1800,6 +1508,11 @@ Protected Eight-Fold Half-Bridge Driver
 <part name="C8" library="SamacSys_Parts" deviceset="GRM155R61H104JE14D" device=""/>
 <part name="C9" library="SamacSys_Parts" deviceset="GRM155R61H104JE14D" device=""/>
 <part name="C10" library="SamacSys_Parts" deviceset="GRM155R61H104JE14D" device=""/>
+<part name="C1" library="SamacSys_Parts" deviceset="EEE-FT1H470AP" device=""/>
+<part name="Z1" library="SamacSys_Parts" deviceset="MM3Z12VT1G" device=""/>
+<part name="D1" library="SamacSys_Parts" deviceset="SM6T39A" device=""/>
+<part name="C5" library="SamacSys_Parts" deviceset="EEE-FT1H470AP" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1810,14 +1523,8 @@ Protected Eight-Fold Half-Bridge Driver
 <attribute name="NAME" x="3.81" y="76.2" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="3.81" y="73.66" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C1" gate="G$1" x="27.94" y="58.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.13" y="52.07" size="1.778" layer="95" rot="R270" align="center-left"/>
-</instance>
 <instance part="GND1" gate="1" x="15.24" y="40.64" smashed="yes">
 <attribute name="VALUE" x="12.7" y="38.1" size="1.778" layer="96"/>
-</instance>
-<instance part="GND2" gate="1" x="27.94" y="40.64" smashed="yes">
-<attribute name="VALUE" x="25.4" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="43.18" y="60.96" smashed="yes">
 <attribute name="VALUE" x="40.64" y="58.42" size="1.778" layer="96"/>
@@ -1905,31 +1612,19 @@ Protected Eight-Fold Half-Bridge Driver
 <attribute name="VALUE" x="77.47" y="196.85" size="1.778" layer="96" rot="MR90"/>
 <attribute name="NAME" x="87.63" y="196.85" size="1.778" layer="95" rot="MR90"/>
 </instance>
-<instance part="GND12" gate="1" x="86.36" y="175.26" smashed="yes">
-<attribute name="VALUE" x="83.82" y="172.72" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="86.36" y="162.56" smashed="yes">
+<attribute name="VALUE" x="83.82" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="104.14" y="190.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="101.089359375" y="185.66981875" size="1.779540625" layer="95" rot="R90"/>
-<attribute name="VALUE" x="108.713340625" y="185.418509375" size="1.77851875" layer="96" rot="R90"/>
+<instance part="GND13" gate="1" x="106.68" y="182.88" smashed="yes">
+<attribute name="VALUE" x="104.14" y="180.34" size="1.778" layer="96"/>
 </instance>
-<instance part="GND13" gate="1" x="104.14" y="175.26" smashed="yes">
-<attribute name="VALUE" x="101.6" y="172.72" size="1.778" layer="96"/>
-</instance>
-<instance part="D1" gate="G$1" x="96.52" y="203.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.615" y="201.422" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="99.949" y="201.422" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R10" gate="G$1" x="86.36" y="180.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.01" y="194.31" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="82.55" y="194.31" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="R10" gate="G$1" x="86.36" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.01" y="184.15" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="82.55" y="184.15" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="U2" gate="G$1" x="-109.22" y="76.2" smashed="yes">
 <attribute name="NAME" x="-109.22" y="76.835" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-109.22" y="30.48" size="1.778" layer="96"/>
-</instance>
-<instance part="U$3" gate="G$1" x="-147.32" y="63.5" smashed="yes">
-<attribute name="NAME" x="-146.303559375" y="64.135271875" size="1.778759375" layer="95"/>
-<attribute name="VALUE" x="-146.30273125" y="59.303740625" size="1.78023125" layer="96"/>
 </instance>
 <instance part="GND14" gate="1" x="-129.54" y="88.9" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-127" y="91.44" size="1.778" layer="96" rot="R180"/>
@@ -1955,8 +1650,8 @@ Protected Eight-Fold Half-Bridge Driver
 <instance part="GND21" gate="1" x="-134.62" y="45.72" smashed="yes">
 <attribute name="VALUE" x="-137.16" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="GND22" gate="1" x="-147.32" y="50.8" smashed="yes">
-<attribute name="VALUE" x="-149.86" y="48.26" size="1.778" layer="96"/>
+<instance part="GND22" gate="1" x="-144.78" y="48.26" smashed="yes">
+<attribute name="VALUE" x="-147.32" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="-119.38" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="-120.65" y="85.09" size="1.778" layer="95" rot="R90" align="center-left"/>
@@ -1966,6 +1661,22 @@ Protected Eight-Fold Half-Bridge Driver
 </instance>
 <instance part="C10" gate="G$1" x="-134.62" y="63.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="-133.35" y="54.61" size="1.778" layer="95" rot="R270" align="center-left"/>
+</instance>
+<instance part="C1" gate="G$1" x="-144.78" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="-138.43" y="57.15" size="1.778" layer="95" rot="R270" align="center-left"/>
+</instance>
+<instance part="Z1" gate="G$1" x="96.52" y="205.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="100.33" y="198.12" size="1.778" layer="95" rot="R270" align="center-left"/>
+</instance>
+<instance part="D1" gate="G$1" x="106.68" y="205.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="111.76" y="194.31" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="109.22" y="194.31" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="C5" gate="G$1" x="25.4" y="58.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.75" y="49.53" size="1.778" layer="95" rot="R270" align="center-left"/>
+</instance>
+<instance part="GND2" gate="1" x="25.4" y="40.64" smashed="yes">
+<attribute name="VALUE" x="22.86" y="38.1" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1981,11 +1692,6 @@ Protected Eight-Fold Half-Bridge Driver
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="15.24" y1="43.18" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="27.94" y1="43.18" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
@@ -2043,19 +1749,9 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="-58.42" y1="160.02" x2="-58.42" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="A"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="104.14" y1="185.42" x2="104.14" y2="177.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="-109.22" y1="124.46" x2="-106.68" y2="124.46" width="0.1524" layer="91"/>
-<label x="-106.68" y="124.46" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="177.8" x2="86.36" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="165.1" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="EP"/>
@@ -2083,11 +1779,6 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="-78.74" y1="73.66" x2="-58.42" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="-"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="-147.32" y1="55.88" x2="-147.32" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="-134.62" y1="48.26" x2="-134.62" y2="50.8" width="0.1524" layer="91"/>
@@ -2101,6 +1792,31 @@ Protected Eight-Fold Half-Bridge Driver
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="-119.38" y1="91.44" x2="-119.38" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="-144.78" y1="50.8" x2="-144.78" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="106.68" y1="190.5" x2="106.68" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="C5" gate="G$1" pin="-"/>
+<wire x1="25.4" y1="43.18" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="-109.22" y1="134.62" x2="-106.68" y2="134.62" width="0.1524" layer="91"/>
+<label x="-106.68" y="134.62" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="-109.22" y1="132.08" x2="-106.68" y2="132.08" width="0.1524" layer="91"/>
+<label x="-106.68" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ISEN" class="0">
@@ -2116,12 +1832,22 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="-22.86" y1="66.04" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="-25.4" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A3_P_WIN"/>
+<wire x1="12.7" y1="134.62" x2="15.24" y2="134.62" width="0.1524" layer="91"/>
+<label x="15.24" y="134.62" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="IN1" class="0">
 <segment>
 <pinref part="M1" gate="G$1" pin="IN1"/>
 <wire x1="-22.86" y1="63.5" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
 <label x="-25.4" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A2_ILLUM_IN"/>
+<wire x1="12.7" y1="137.16" x2="15.24" y2="137.16" width="0.1524" layer="91"/>
+<label x="15.24" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NFAULT" class="0">
@@ -2130,6 +1856,11 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="-22.86" y1="60.96" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
 <label x="-25.4" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A1"/>
+<wire x1="12.7" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
+<label x="15.24" y="104.14" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="FOLD_B" class="0">
 <segment>
@@ -2137,12 +1868,22 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="7.62" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
 <label x="10.16" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="-109.22" y1="116.84" x2="-106.68" y2="116.84" width="0.1524" layer="91"/>
+<label x="-106.68" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="FOLD_A" class="0">
 <segment>
 <pinref part="M1" gate="G$1" pin="OUT1"/>
 <wire x1="7.62" y1="63.5" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 <label x="10.16" y="63.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="-109.22" y1="119.38" x2="-106.68" y2="119.38" width="0.1524" layer="91"/>
+<label x="-106.68" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SSSS" class="0">
@@ -2154,17 +1895,6 @@ Protected Eight-Fold Half-Bridge Driver
 <pinref part="U1" gate="G$1" pin="A7_CS"/>
 <wire x1="-22.86" y1="91.44" x2="-66.04" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-66.04" y="91.44"/>
-</segment>
-</net>
-<net name="MIR_SEL" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="A6_MIR_SEL"/>
-<wire x1="12.7" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="127" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
-<junction x="30.48" y="127"/>
-<label x="35.56" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -2304,6 +2034,11 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="12.7" y1="142.24" x2="15.24" y2="142.24" width="0.1524" layer="91"/>
 <label x="15.24" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="12"/>
+<wire x1="111.76" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<label x="109.22" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RX" class="0">
 <segment>
@@ -2311,19 +2046,21 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="12.7" y1="139.7" x2="15.24" y2="139.7" width="0.1524" layer="91"/>
 <label x="15.24" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="134.62" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
+<label x="109.22" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ILLUM_IN" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="A2_ILLUM_IN"/>
-<wire x1="12.7" y1="137.16" x2="15.24" y2="137.16" width="0.1524" layer="91"/>
-<label x="15.24" y="137.16" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="P_WIN" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="A3_P_WIN"/>
-<wire x1="12.7" y1="134.62" x2="15.24" y2="134.62" width="0.1524" layer="91"/>
-<label x="15.24" y="134.62" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="A6_MIR_SEL"/>
+<wire x1="12.7" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="127" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
+<junction x="30.48" y="127"/>
+<label x="35.56" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D_WIN" class="0">
@@ -2411,13 +2148,6 @@ Protected Eight-Fold Half-Bridge Driver
 <label x="-60.96" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="A1"/>
-<wire x1="12.7" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
-<label x="15.24" y="104.14" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="VBAT" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="POSITIVE_INPUT"/>
@@ -2439,9 +2169,14 @@ Protected Eight-Fold Half-Bridge Driver
 <label x="-101.6" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="-109.22" y1="121.92" x2="-106.68" y2="121.92" width="0.1524" layer="91"/>
-<label x="-106.68" y="121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="11"/>
+<wire x1="-109.22" y1="111.76" x2="-106.68" y2="111.76" width="0.1524" layer="91"/>
+<label x="-106.68" y="111.76" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="-109.22" y1="114.3" x2="-106.68" y2="114.3" width="0.1524" layer="91"/>
+<label x="-106.68" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="WIN_A" class="0">
@@ -2468,88 +2203,32 @@ Protected Eight-Fold Half-Bridge Driver
 <label x="-106.68" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="-109.22" y1="134.62" x2="-106.68" y2="134.62" width="0.1524" layer="91"/>
-<label x="-106.68" y="134.62" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="-109.22" y1="132.08" x2="-106.68" y2="132.08" width="0.1524" layer="91"/>
-<label x="-106.68" y="132.08" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="-109.22" y1="129.54" x2="-106.68" y2="129.54" width="0.1524" layer="91"/>
-<label x="-106.68" y="129.54" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="-109.22" y1="127" x2="-106.68" y2="127" width="0.1524" layer="91"/>
-<label x="-106.68" y="127" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="-109.22" y1="119.38" x2="-106.68" y2="119.38" width="0.1524" layer="91"/>
-<label x="-106.68" y="119.38" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="-109.22" y1="116.84" x2="-106.68" y2="116.84" width="0.1524" layer="91"/>
-<label x="-106.68" y="116.84" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="-109.22" y1="114.3" x2="-106.68" y2="114.3" width="0.1524" layer="91"/>
-<label x="-106.68" y="114.3" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="-109.22" y1="111.76" x2="-106.68" y2="111.76" width="0.1524" layer="91"/>
-<label x="-106.68" y="111.76" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="VS" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="88.9" y1="208.28" x2="96.52" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="205.74" x2="96.52" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="208.28" x2="104.14" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="208.28" x2="104.14" y2="195.58" width="0.1524" layer="91"/>
-<junction x="96.52" y="208.28"/>
-<wire x1="104.14" y1="208.28" x2="109.22" y2="208.28" width="0.1524" layer="91"/>
-<junction x="104.14" y="208.28"/>
+<wire x1="96.52" y1="208.28" x2="106.68" y2="208.28" width="0.1524" layer="91"/>
 <label x="109.22" y="208.28" size="1.016" layer="95" xref="yes"/>
+<pinref part="Z1" gate="G$1" pin="K"/>
+<wire x1="106.68" y1="208.28" x2="109.22" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="205.74" x2="96.52" y2="208.28" width="0.1524" layer="91"/>
+<junction x="96.52" y="208.28"/>
+<pinref part="D1" gate="G$1" pin="K"/>
+<wire x1="106.68" y1="205.74" x2="106.68" y2="208.28" width="0.1524" layer="91"/>
+<junction x="106.68" y="208.28"/>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="VM"/>
 <wire x1="7.62" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="60.96" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="27.94" y1="58.42" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
 <junction x="15.24" y="60.96"/>
-<wire x1="27.94" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
-<junction x="27.94" y="60.96"/>
 <label x="30.48" y="60.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="+"/>
+<wire x1="25.4" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="58.42" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<junction x="25.4" y="60.96"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VS2"/>
@@ -2559,29 +2238,30 @@ Protected Eight-Fold Half-Bridge Driver
 <junction x="-134.62" y="66.04"/>
 <pinref part="U2" gate="G$1" pin="VS1"/>
 <wire x1="-137.16" y1="68.58" x2="-129.54" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="+"/>
 <wire x1="-129.54" y1="68.58" x2="-114.3" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-147.32" y1="68.58" x2="-137.16" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="68.58" x2="-144.78" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="68.58" x2="-137.16" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="66.04" x2="-137.16" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-137.16" y="68.58"/>
-<wire x1="-147.32" y1="68.58" x2="-149.86" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-147.32" y="68.58"/>
 <label x="-149.86" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="-129.54" y1="71.12" x2="-129.54" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-129.54" y="68.58"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="-144.78" y1="66.04" x2="-144.78" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-144.78" y="68.58"/>
 </segment>
 </net>
 <net name="GATE" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="86.36" y1="203.2" x2="86.36" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="96.52" y1="200.66" x2="86.36" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="198.12" x2="86.36" y2="200.66" width="0.1524" layer="91"/>
-<junction x="86.36" y="200.66"/>
+<wire x1="86.36" y1="187.96" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="Z1" gate="G$1" pin="A"/>
+<wire x1="86.36" y1="190.5" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="190.5" x2="86.36" y2="190.5" width="0.1524" layer="91"/>
+<junction x="86.36" y="190.5"/>
 </segment>
 </net>
 <net name="MIR_V" class="0">
@@ -2595,6 +2275,11 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="-114.3" y1="38.1" x2="-116.84" y2="38.1" width="0.1524" layer="91"/>
 <label x="-116.84" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="-109.22" y1="121.92" x2="-106.68" y2="121.92" width="0.1524" layer="91"/>
+<label x="-106.68" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MIR_COM" class="0">
 <segment>
@@ -2607,6 +2292,11 @@ Protected Eight-Fold Half-Bridge Driver
 <wire x1="-114.3" y1="48.26" x2="-116.84" y2="48.26" width="0.1524" layer="91"/>
 <label x="-116.84" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="-109.22" y1="127" x2="-106.68" y2="127" width="0.1524" layer="91"/>
+<label x="-106.68" y="127" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MIR_H" class="0">
 <segment>
@@ -2618,6 +2308,81 @@ Protected Eight-Fold Half-Bridge Driver
 <pinref part="U2" gate="G$1" pin="OUT_5"/>
 <wire x1="-114.3" y1="40.64" x2="-116.84" y2="40.64" width="0.1524" layer="91"/>
 <label x="-116.84" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="-109.22" y1="129.54" x2="-106.68" y2="129.54" width="0.1524" layer="91"/>
+<label x="-106.68" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="132.08" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
+<label x="109.22" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="129.54" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
+<label x="109.22" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="127" x2="109.22" y2="127" width="0.1524" layer="91"/>
+<label x="109.22" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
+<label x="109.22" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="6"/>
+<wire x1="111.76" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
+<label x="109.22" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="7"/>
+<wire x1="111.76" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
+<label x="109.22" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="8"/>
+<wire x1="111.76" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
+<label x="109.22" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="9"/>
+<wire x1="111.76" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<label x="109.22" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="10"/>
+<wire x1="111.76" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<label x="109.22" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="11"/>
+<wire x1="111.76" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<label x="109.22" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
