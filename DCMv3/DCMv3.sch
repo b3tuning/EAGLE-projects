@@ -90,6 +90,15 @@
 <wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
 <wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
 <wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
+<pad name="P$1" x="-0.762" y="1.016" drill="0.25" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="P$2" x="-0.762" y="0" drill="0.25" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="P$3" x="-0.762" y="-1.016" drill="0.25" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="P$4" x="0" y="-1.016" drill="0.25" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="P$5" x="0" y="0" drill="0.25" diameter="0.6096" rot="R180" stop="no" thermals="no"/>
+<pad name="P$6" x="0" y="1.016" drill="0.25" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="P$7" x="0.762" y="1.016" drill="0.25" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="P$8" x="0.762" y="0" drill="0.25" diameter="0.6096" stop="no" thermals="no"/>
+<pad name="P$9" x="0.762" y="-1.016" drill="0.25" diameter="0.6096" stop="no" thermals="no"/>
 </package>
 <package name="RESC0603X26N">
 <description>&lt;b&gt;0603_&lt;/b&gt;&lt;br&gt;
@@ -444,7 +453,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/drv8872-q1.pdf"&gt; Datashe
 <devices>
 <device name="" package="SOIC127P600X170-9N">
 <connects>
-<connect gate="G$1" pin="EP" pad="9"/>
+<connect gate="G$1" pin="EP" pad="9 P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9"/>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN1" pad="3"/>
 <connect gate="G$1" pin="IN2" pad="2"/>
