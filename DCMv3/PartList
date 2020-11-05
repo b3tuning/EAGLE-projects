@@ -1,0 +1,41 @@
+Partlist
+
+Exported from DCMv3.brd at 7/18/2019 1:11 PM
+
+EAGLE Version 9.4.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                 Package             Library        Position (mil)        Orientation
+
+C1       EEE-FT1H470AP         CAPAE660X610N       SamacSys_Parts (1585 1045)           R270
+C2       GRM155R61H104JE14D    CAPC1005X55N        SamacSys_Parts (1584 1280)           R180
+C3       GRM155R61H104JE14D    CAPC1005X55N        SamacSys_Parts (1788 1250)           R0
+C4       GRM155R61H104JE14D    CAPC1005X55N        SamacSys_Parts (1713 1669)           R90
+C5       GRT21BR61E226ME13L    CAPC2012X145N       SamacSys_Parts (1215 460)            R90
+C6       GRM033R6YA104KE14D    CAPC0603X33N        SamacSys_Parts (979 1455)            R0
+C7       ZRB18AR60J476ME01L    CAPC1608X120N       SamacSys_Parts (1205 330)            R270
+C8       EEE-FT1H470AP         CAPAE660X610N       SamacSys_Parts (1341 1404)           R90
+D1       1N4148WSF-7           SODFL2512X75N       SamacSys_Parts (2116 1225)           R180
+D2       1N4148WSF-7           SODFL2512X75N       SamacSys_Parts (1975 1225)           R180
+D3       SM6T39A               DIOM5436X265N       SamacSys_Parts (1830 1020)           R270
+HB1      WINDOW_MOTOR          POLOLU              Marvelous      (1496 428)            R0
+IC1      OKI-78SR-5_1.5-W36H-C OKI-78SR-HORIZONTAL SamacSys_Parts (1400 400)            MR90
+IC2      ILD206T               SOIC127P610X323-8N  SamacSys_Parts (2050 1040)           R270
+J1       9-6437287-8           964372878           SamacSys_Parts (710 1230)            R270
+M1       DRV8872DDA            SOIC127P600X170-9N  SamacSys_Parts (1020 1330)           R180
+Q1       IPD50P04P4L-11        DPAK228P998X235-3N  IPD50P04P4L-11 (1070 1030)           R90
+R1       ERJ-1RKD4700C         RESC0603X26N        SamacSys_Parts (2133 1652)           R0
+R2       ERJ-1RKD4700C         RESC0603X26N        SamacSys_Parts (1999 1458)           R0
+R3       ERJ-1RKD4700C         RESC0603X26N        SamacSys_Parts (2001 1558)           R0
+R4       ERJ-1RKD4700C         RESC0603X26N        SamacSys_Parts (2000 1655)           R0
+R5       ERJ-1RKD4700C         RESC0603X26N        SamacSys_Parts (2130 1555)           R0
+R6       RLP73K3AR12FTDF       RESC6432X84N        SamacSys_Parts (1012 1575)           R0
+R7       ERJ-PA2F4701X         RESC1005X40N        SamacSys_Parts (1974 1324)           R180
+R8       ERJ-PA2F4701X         RESC1005X40N        SamacSys_Parts (1380 905)            R90
+R9       ERJ-PA2F4701X         RESC1005X40N        SamacSys_Parts (2125 1324)           R180
+R10      ERJ-PA2F4701X         RESC1005X40N        SamacSys_Parts (2150 854)            R0
+R11      ERJ-PA2F4701X         RESC1005X40N        SamacSys_Parts (2001 856)            R180
+U1       TLE94108EL            SOP65P600X170-25N   TLE94108EL     (1699 1480)           R270
+U2       A000005               ARDUINO_A000005     A000005        (2560 875)            R180
+Z1       MM3Z12VT1G            SOD2512X110N        SamacSys_Parts (1380 1060)           R270
